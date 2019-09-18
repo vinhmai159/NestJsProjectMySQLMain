@@ -1,0 +1,15 @@
+{
+    "port": 3306,
+    "type": "mysql",
+    "host": "localhost",
+    "username": "root",
+    "password": "",
+    "database": "nest-shopping-api",
+    "logging" : true,
+    "synchronize": false,
+    "entities": ["src/**/*.entity{.ts,.js}"],
+    "migrations": ["src/migrations/*{.ts,.js}"],
+    "cli": {
+        "migrationsDir": "src/migrations"
+    }
+}

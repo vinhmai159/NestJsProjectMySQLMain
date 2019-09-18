@@ -1,0 +1,9 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "username": "root",
+    "password": "",
+    "logging" : true,
+    "database": "nest-shopping-api",
+    "synchronize": true
+}
